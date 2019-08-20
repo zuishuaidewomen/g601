@@ -87,3 +87,27 @@
 .section .model .car .more .cta-container{
     display: inline-block;
 }
+.section .model .car .more .cta-container .cta{
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 6px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: "Univers57",sans-serif;
+    font-size: 14px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    line-height: 2;
+    display: block;
+}
+.section .model .car .more .cta-container .white{
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #333 inset;
+    color: #333;
+}
+.section .model .car .more .cta-container .blue{
+    background-color: #0c2340;
+}
+.section .model .car .more .cta-container .cta a{
+    padding: 0;
+}
