@@ -30,6 +30,14 @@
     background-color: #fff;
     overflow: hidden;
 }
+.section .model .border{
+    position:absolute;
+    top:16px;
+    right:0;
+    width:2px;
+    height:492px;
+    background-image:linear-gradient(to top,white,20%,#f2f1f0,80%,white)
+}
 .section .model .car{
     text-align: center;
     position: relative;
@@ -110,4 +118,18 @@
 }
 .section .model .car .more .cta-container .cta a{
     padding: 0;
+    text-decoration:none;
+}
+.cta a{
+    font-size: 14px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    line-height: 2;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+}
+.section .model .car .more .cta-container .white a{
+    color: black;
 }
