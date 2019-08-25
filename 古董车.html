@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .wrap{
+        width: 100%;
+        height: 100%;
+    }
+    .wrap .dinner{
+        position: relative;
+        width: 100%;
+        height: 582px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .wrap .dinner img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        bottom: -100%;
+        left: -100%;
+        right: -100%;
+        margin: auto;
+    }
+    .wrap .dinner .txt{
+        position: absolute;
+        top: 245px;
+        left: 60px;
+        color: #fff;
+        width: 360px;
+    }
+    .wrap .dinner .txt .title{
+        font-size: 34px;
+        line-height: 60px
+    }
+    .wrap .dinner .txt .zi1{
+        font-size: 20px;
+        line-height: 32px
+    }
+    .wrap .che1{
+        background-color: #f2f1f0;
+        color: #333;
+        padding: 0 60px;
+        
+    }
+    .wrap .che1 .cheche1{
+         padding-bottom: 30px;
+         padding-top: 30px;
+         display: inline-block;
+            
+    }
+    .wrap .che1 div.che11{
+        margin-right: 24px;
+    }
+    .wrap .che1 div.che11 .zi{
+        height: 100px;
+    }
+    .wrap .che1 div.che11 img{
+        margin-top:-15px
+    }
+    .wrap .che1 .cheche1 img{
+        width: 600px;
+        height: 400px;
+        display: block;
+    }
+    .wrap .che1 .cheche1 .zi{
+        margin-top:10px;
+        color: #333;
+        line-height: 25px;
+        width:600px
+    }
+    .wrap .che1 .cheche1 .liaojie{
+        width: 180px;
+        display: inline-block;
+        margin: 30px 15px 0 0;
+        border: 1px solid #333;
+        background: white;
+        border-radius: 2px;
+        text-align: center;
+    }
+    .wrap .che1 .cheche1 .liaojie a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 30px;
+    }
+    .wrap .che2{
+        padding: 0;
+        background-color: #f2f1f0;
+        color: #333;
+        padding: 0 60px;
+    }
+    .wrap .che2 .title{
+        font-size: 42px;
+        line-height: 80px;
+        padding-bottom: 30px;
+    }
+    .wrap .che2 .cheche1{
+         padding-bottom: 30px;
+         padding-top: 30px;
+         display: inline-block;
+        
+    }
+    .wrap .che2 div.che11{
+        margin-right: 24px;
+    }
+    .wrap .che2 div.che11 .zi{
+        height: 100px;
+    }
+    .wrap .che2 .cheche1 img{
+        width: 600px;
+        height: 400px;
+    }
+    .wrap .che2 .cheche1 .zi{
+        margin-top:10px;
+        color: #333;
+        line-height: 25px;
+        width:600px
+    }
+    .wrap .che2 .cheche1 .liaojie{
+        width: 180px;
+        display: inline-block;
+        margin: 30px 15px 0 0;
+        border: 1px solid #333;
+        background: white;
+        border-radius: 2px;
+        text-align: center;
+    }
+    .wrap .che2 .cheche1 .liaojie a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 30px;
+    }
+    
+    .wrap .che3{
+        padding: 0;
+        background-color: #f2f1f0;
+        color: #333;
+        padding: 0 60px;
+    }
+    .wrap .che3 .title{
+        font-size: 42px;
+        line-height: 80px;
+        padding-bottom: 30px;
+    }
+    .wrap .che3 .cheche1{
+         padding-bottom: 30px;
+         padding-top: 30px;
+         display: inline-block;
+      
+    }
+
+    .wrap .che3 .cheche1 img{
+        width: 600px;
+        height: 400px;
+    }
+    .wrap .che3 .cheche1 .zi{
+        margin-top:10px;
+        color: #333;
+        line-height: 25px;
+        width:600px
+    }
+    .wrap .che3 .cheche1 .liaojie{
+        width: 180px;
+        display: inline-block;
+        margin: 30px 15px 0 0;
+        border: 1px solid #333;
+        background: white;
+        border-radius: 2px;
+        text-align: center;
+    }
+    .wrap .che3 .cheche1 .liaojie a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 30px;
+    }
+    
+    .wrap .yuyue{
+        padding: 10px;
+        background-color: #f2f1f0;
+        border-bottom: 1px solid #ebebeb;
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+    }
+    .wrap .yuyue .logo{
+        display: block;
+        margin: 0 auto 10px;
+        background:url(images/下载.svg) no-repeat 50% 50%;
+        background-size: 100%;
+        background-position: center center;
+        height: 45px;
+        width: 45px;
+    }
+    .wrap .yuyue .zi1{
+        font-size: 42px;
+        color: #333;
+        margin: 0 0 15px;
+    }
+    .wrap .yuyue .zi2{
+        margin: 0 auto;
+        width: 600px;
+    }
+    .wrap .yuyue .jike{
+        margin-top: 30px;
+        background-color: #0c2340;
+        border: 1px solid #0c2340;
+        color: black;
+        border-radius: 2px;
+        display: inline-block;
+        text-align: center;
+    }
+    .wrap .yuyue .jike a{
+        font-size: 14px;
+        text-decoration: none;
+        margin: 0;
+        display: inline-block;
+        padding: 6px 30px;
+        color: #fff
+    }
+    .wrap .fanhui{
+        text-align: center
+    }
+    .wrap .pinpai{
+        font-size: 16px;
+        display: inline-block;
+        text-transform: uppercase;
+        line-height: 90px;
+        color: #333;
+        height: 90px;
+    }
+    .wrap .pinpai a{
+        text-decoration: none;
+        color: #0c2340;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="dinner">
+            <img src="images/Classiche_intro.jpg" alt="">
+            <div class="txt">
+                <p class="title">玛莎拉蒂古董车</p>
+                <p class="zi1">无论在公路或是赛道，玛莎拉蒂都致力打造经典之作</p>
+            </div>
+        </div>
+
+        <div class="che1">
+            <div class="cheche1 che11">
+                <img src="images/MAS_ELDORADO_1920x1080.jpg" alt="">
+                <div class="zi">
+                    <p>战后赛车</p>
+                    <p>战后时期诞生了两款赛车：</p>
+                    <p>420M/58”Eldorado“ 和Tipo 60/61 ”鸟笼“</p>
+                </div>
+                <div class="liaojie">
+                    <a href="">了解更多</a>
+                </div>
+            </div>
+            <div class="cheche1">
+                <img src="images/1500_Gran_Turismo_exterior.jpg" alt="">
+                <div class="zi">
+                    <p>Gran Turismo</p>
+                    <p>Gran Turismo是一款适合长距离高速行驶的豪华轿跑车，在追求驾驶乐趣的同时兼顾享受，每一次驾乘都是激情之旅。自1946年诞生以来，GT作为玛莎拉蒂的旗舰车型，代表着玛莎拉蒂的意式驾驶体验</p>
+                </div>
+                <div class="liaojie">
+                    <a href="">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="che2">
+            <div class="title">Gran Turismo</div>
+            <div class="cheche1 che11">
+                <img src="images/Quattroporte_I_first_series_exterior.jpg" alt="">
+                <div class="zi">
+                    <p>Quattroporte总裁系列</p>
+                    <p>Quattroporte，以舒适定义的高性能”四门轿跑车“，超越半世纪的探索，巧妙演绎出意大利豪华轿车的风采与GT跑车的运动精神。</p>
+                </div>
+                <div class="liaojie">
+                    <a href="">了解更多</a>
+                </div>
+            </div>
+            <div class="cheche1">
+                <img src="images/228_exterior.jpg" alt="">
+                <div class="zi">
+                    <p>Biturbo及其衍生车型</p>
+                    <p>Biturbo是玛莎拉蒂前总裁Alejandro de Tomaso的心血之作，是一款配备双涡轮增压发动机的量产车。自1981年起，Biturbo原始车型共计衍生五十余款全新系列，成为了20年间来玛莎拉蒂代表性的车型。</p>
+                </div>
+                <div class="liaojie">
+                    <a href="">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="che3">
+            <div class="title">Gran Turismo</div>
+            <div class="cheche1">
+                <img src="images/Barchetta_exterior.jpg" alt="">
+                <div class="zi">
+                    <p>特殊纪念款</p>
+                    <p>不同于公路车型，为竞速赛车而生。</p>
+                </div>
+                <div class="liaojie">
+                    <a href="">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="fanhui">
+            <div class="pinpai">
+                <a href="">返回 品牌故事</a>
+            </div>
+        </div>
+        <div class="yuyue">
+            <div class="logo"></div>
+            <p class="zi1">预约试驾</p>
+            <p class="zi2">纵享玛莎拉蒂非凡驾趣</p>
+            <div class="jike">
+                <a href="">即刻预约</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
